@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    padding: 15px 30px;
+    background-color: grey;
+    border-bottom: 1px solid #cccccce1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('images/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.avif');
+    background-size: cover; 
+}
+
+/* Logo */
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+}
+
+.logo i {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.logo h1 {
+    display: inline-block;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    margin-left: 300px;
+    vertical-align: middle;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+     background-position: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: justify;
+}
+
+/* Notification */
+.notification {
+    display: inline-block;
+    margin-left: 30px;
+    cursor: pointer;
+    color: yellow;
+    border: none;
+    background: transparent;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.about {
+    height: 100vh;
+    background-image: url("images/images.jpg");
+   background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    padding-top: 200px;
+
+    color: white;
+}
+
+.about h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 20px;
+    max-width: 600px;
+    margin: auto;
+}
